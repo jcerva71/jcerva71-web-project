@@ -1,1 +1,4 @@
 # jcerva71-web-project
+Hello to all who stumble upon this project,
+This webpage is a project dedicated to exploring a simple overview of the genre, Midwest Emo. It includes descriptions of the genre, its sound, and some bands to check out if one wants to experience this amazing genre. 
+While creating this webpage, I learned about the basic structure of a HTML page. There were some components I forgot I had to include for a better functioning site like "charset" and "lang." I didn't really face any other challenges as the basic components of HTML seem relatively simple to understand and implement. 
