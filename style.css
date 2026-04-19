@@ -4,6 +4,10 @@ body {
 p {
     font-family: "Verdana", "Arial", sans-serif;
 }
+nav p a {
+    color: darkblue;
+    margin: 30px;
+}
 h2 {
     font-family: "Titan One","Arial",sans-serif;
     text-align: center;
