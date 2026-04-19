@@ -1,19 +1,171 @@
 body {
-    background-image:url(/images/dark-grunge-texture-background-with-scratches-stains.jpg) ;
+    background-image:url('images/dark-grunge-texture-background-with-scratches-stains.jpg') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
 }
-p {
-    font-family: "Verdana", "Arial", sans-serif;
+
+nav {
+    position: sticky;
+    top: 5px;
+    z-index: 10;
+    font-family: fantasy;
+    color: blue;
+    border-radius: 20px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+    a {
+        text-decoration: none;
+        color: rgb(0, 22, 95);
+        font-size: 120%;
+        &:hover {
+            color: red;
+            transform: scale(1.2);
+        }
+    }
 }
-nav p a {
-    color: darkblue;
-    margin: 30px;
+
+h1 {
+    font-family: "Titan One","Arial",sans-serif;
+    color: whitesmoke;
+    font-size: 300%;
+    border-bottom: 4px solid rgb(134, 134, 134);
+    display: inline-block;
+    text-align: center;
 }
+
 h2 {
     font-family: "Titan One","Arial",sans-serif;
+    font-size: 200%;
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 10%;
+}
+
+h3 {
+    font-family: "Titan One","Arial",sans-serif;
+    text-align: left;
+    color: whitesmoke;
+    margin-left: 10%;
+}
+
+p {
+    font-family: "Verdana", "Arial", sans-serif;
+    background-color: rgba(240, 248, 255, 0.8);
+    text-align: left;
+    display: inline-block;
+    border: 3px solid grey;
+    border-radius: 5px;
+    line-height: 1.8;
+    padding: 5px 15px;
+}
+
+#guitarequipment {
+    border: 3px solid black;
+    /*border-radius: 10px;*/
+    flex: 1;
+}
+
+.image-text {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 0 10%;
+    p {
+        flex: 1;
+    }
+}
+
+
+#description {
+    p {
+        margin: 0 10%;
+    }
+}
+
+#definingchar {
+    h3 {
+        text-align: center;
+        margin:1% 0;
+    }
+}
+ul {
     text-align: center;
-    color: darkblue;
-} 
+    border: 3px solid grey;
+    border-radius: 5px;
+    margin: 0 40%;
+    padding: 0;
+    background-color: rgba(65, 65, 65, 0.8);
+}
+ 
 li {
     font-size: 120%;
     font-family: "Verdana", "Arial", sans-serif;
+    color: aliceblue;
+    text-align: center;
+    display: block;
+    line-height: 1.8;
+    
+}
+
+#relevance {
+    font-family: "Verdana", "Arial", sans-serif;
+
+    .image-text {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    #guitarist {
+        margin-top: 35px;
+        border: 3px solid black;
+        /*border-radius: 10px;*/
+        flex: 1;
+    }
+}
+
+caption {
+    font-family: "Titan One","Arial",sans-serif;
+    color: whitesmoke;
+    font-size: 150%;
+}
+
+table {
+    font-family: "Verdana", "Arial", sans-serif;
+    border: 2px solid grey;
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    background-color: rgba(170, 171, 172, 0.8);
+    table-layout: fixed;
+    
+    th {
+        font-family: fantasy, "Arial", sans-serif;
+        font-size: 170%;
+        border: 5px solid black;
+        padding: 15px;
+        text-align: center;
+        width:50%;
+        
+    }
+
+    td {
+        font-family: fantasy, "Arial", sans-serif;
+        font-size: 130%;
+        border: 5px solid black;
+        padding: 15px;
+        text-align: center;
+        width:50%;
+        a {
+            text-decoration: none;
+            color: rgb(0, 22, 95);
+            &:hover {
+                color: red;
+                transform: scale(1.3);
+            }
+        }
+    }
 }
