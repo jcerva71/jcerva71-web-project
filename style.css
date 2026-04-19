@@ -38,6 +38,9 @@ h1 {
     font-family: "Titan One","Arial",sans-serif;
     color: rgb(255, 255, 255);
     font-size: 300%;
+    display: block;
+    text-align: center;
+    margin: 10px 40%;
     border-bottom: 4px solid rgb(134, 134, 134);
     border: 3px solid black;
     border-radius: 20px;
@@ -49,7 +52,7 @@ h2 {
     font-size: 200%;
     color: whitesmoke;
     border: 3px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: rgba(26, 26, 26, 0.8);
 }
 
@@ -57,11 +60,11 @@ h3 {
     font-family: "Titan One","Arial",sans-serif;
     color: whitesmoke;   
     border: 3px solid black;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: rgba(26, 26, 26, 0.8);
 }
 
-h1, h2, h3 {
+h2, h3 {
     display: inline-block;
     text-align: left;
     margin-left: 10%;
@@ -140,6 +143,11 @@ li {
         /*border-radius: 10px;*/
         flex: 1;
     }
+    #table p {
+        display: block;
+        text-align: center;
+        margin: 10px 25%;
+    }
 }
 
 caption {
@@ -156,6 +164,10 @@ table {
     margin: auto;
     background-color: rgba(170, 171, 172, 0.8);
     table-layout: fixed;
+    caption {
+        background-color: rgba(170, 171, 172, 0.8);
+        border: 2px solid grey;
+    }
 }
 
 table th {
