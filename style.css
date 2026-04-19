@@ -1,0 +1,15 @@
+body {
+    background-image:url(../../images/dark-grunge-texture-background-with-scratches-stains.jpg) ;
+}
+p {
+    font-family: "Verdana", "Arial", sans-serif;
+}
+h2 {
+    font-family: "Titan One","Arial",sans-serif;
+    text-align: center;
+    color: darkblue;
+} 
+li {
+    font-size: 120%;
+    font-family: "Verdana", "Arial", sans-serif;
+}
