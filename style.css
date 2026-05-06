@@ -56,6 +56,7 @@ h2 {
     border-radius: 10px;
     background-color: rgba(26, 26, 26, 0.8);
     display: inline-block;
+    padding: 5px 15px;
 }
 
 h3 {
@@ -69,7 +70,7 @@ h3 {
 
 p {
     font-family: "Verdana", "Arial", sans-serif;
-    background-color: rgba(240, 248, 255, 0.8);
+    background-color: rgba(253, 254, 255, 0.89);
     text-align: left;
     display: inline-block;
     border: 3px solid grey;
@@ -168,7 +169,7 @@ table caption {
 
 table th {
     font-family: fantasy, "Arial", sans-serif;
-    font-size: 170%;
+    font-size: 150%;
     border: 5px solid black;
     padding: 15px;
     text-align: center;
@@ -236,4 +237,18 @@ input:focus {
 
 div + div {
     margin-top: 1em;
+}
+
+#newsLetterForm {
+    margin: 50px 0;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: rgba(26, 26, 26, 0.8);
+    display: inline-block;
+    padding: 20px 40px;
+}
+#newsLetterForm h2 {
+    padding: 10px 0 ;
+    border : none;
+    background-color: transparent;
 }
