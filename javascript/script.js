@@ -3,11 +3,20 @@ let buttonCounter = 0;
 
 if (sub) {
     sub.addEventListener("click", function(event) {
-        event.preventDefault();
+        const email = document.getElementById("email").value.trim();
+        const name = document.getElementById("name").value.trim();
+        const maidenName = document.getElementById("maidenName").value.trim();
+        const ssn = document.getElementById("ssn").value.trim();
+
+        if (!email || !name || !maidenName || !ssn) {
+            event.preventDefault();
+            alert("Please fill in ALL fields before subscribing.");
+            return;
+        }
+
         buttonCounter++;
         if (buttonCounter === 1) {
             alert("Thanks for subscribing! Unfortunately, we have sold your data " + buttonCounter + " time.");
-            return;
         }
         else if (buttonCounter < 5) {
             alert("Thanks for subscribing again! Unfortunately, we have sold your data " + buttonCounter + " times.");
